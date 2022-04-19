@@ -1,22 +1,41 @@
-# DIY Landing Page
+# Installing Webfonts
+Follow these simple Steps.
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/diy-landing-page-starter"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+## 1.
+Put `supreme/` Folder into a Folder called `fonts/`.
 
-## What Is This? 
-My DIY Landing Page with these features. 
+## 2.
+Put `supreme.css` into your `css/` Folder.
 
-* My content. My design.
-* Customizable, and persistent URL e.g. `YourCustomName.Netlify.app`
-* Portable. Take it to any web host. 
-* Future proof, and easy to maintain. You own the code via GitHub
-* Secure, and scalable to many CDNs worldwide via Netlify
+## 3. (Optional)
+You may adapt the `url('path')` in `supreme.css` depends on your Website Filesystem.
 
-## Sources
-* [How to Center with CSS](https://coryrylan.com/blog/how-to-center-in-css-with-css-grid)
-* [Content Editable](https://css-tricks.com/the-browser-can-remember-edited-content/)
-* [Sharpie font via Font Share](https://www.fontshare.com/fonts/sharpie)
+## 4.
+Import `supreme.css` at the top of you main Stylesheet.
 
-## Why Does This Exist? 
-Many services offer a single-page-landing. These "web portals" have existed for decades before [Linktree](https://linktr.ee/), [About.Me](https://about.me), [Card](https://carrd.co/), etc.
+```
+@import url('supreme.css');
+```
 
-There are too many services to choose from. Each one has minor differences, and benefits with premium paid upgrades. 
+## 5.
+
+
+```
+font-family: 'Supreme-Variable';
+font-family: 'Supreme-VariableItalic';
+font-family: 'Supreme-Thin';
+font-family: 'Supreme-ThinItalic';
+font-family: 'Supreme-Extralight';
+font-family: 'Supreme-ExtralightItalic';
+font-family: 'Supreme-Light';
+font-family: 'Supreme-LightItalic';
+font-family: 'Supreme-Regular';
+font-family: 'Supreme-Italic';
+font-family: 'Supreme-Medium';
+font-family: 'Supreme-MediumItalic';
+font-family: 'Supreme-Bold';
+font-family: 'Supreme-BoldItalic';
+font-family: 'Supreme-Extrabold';
+font-family: 'Supreme-ExtraboldItalic';
+```
+
